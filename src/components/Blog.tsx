@@ -1,6 +1,6 @@
 import blogData from '../data/blog.json'
 
-type Blog = {
+type BlogData = {
   id: number
   title: string
   cover: string
@@ -8,7 +8,7 @@ type Blog = {
 }
 
 const Blog = () => {
-  const blogContent = (blog: Blog) => {
+  const blogContent = (blog: BlogData) => {
     const { id, title, cover, author } = blog
 
     return (
