@@ -1,5 +1,9 @@
 # React + TypeScript + Vite
 
+for no semi in ts:
+"editor.formatOnSave": true,
+"prettier.semi": false,
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
