@@ -41,3 +41,7 @@
   color: rgb(50, 47, 47);
  }
 
+ .container .card img { 
+  width: 230px;
+}
+

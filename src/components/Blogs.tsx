@@ -1,4 +1,4 @@
-import blogData from '../data/blog.json'
+import blogsData from '../data/blogs.json'
 
 type BlogData = {
   id: number
@@ -7,7 +7,7 @@ type BlogData = {
   author: string
 }
 
-const Blog = () => {
+const Blogs = () => {
   const blogContent = (blog: BlogData) => {
     const { id, title, cover, author } = blog
 
@@ -19,7 +19,6 @@ const Blog = () => {
         <img
           src={cover}
           alt=''
-          width='230'
         />
         <div className='details'>
           <h2>{title}</h2>
@@ -30,9 +29,9 @@ const Blog = () => {
   }
   return (
     <div className='container'>
-      <div className='blog'>{blogData.map(blogContent)}</div>
+      <div className='blog'>{blogsData.map(blogContent)}</div>
     </div>
   )
 }
 
-export default Blog
+export default Blogs

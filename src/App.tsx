@@ -1,5 +1,5 @@
 import './App.css'
-import Blog from './components/Blog'
+import Blogs from './components/Blogs'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
           <li>Blog</li>
         </ul>
       </div>
-      <Blog />
+      <Blogs />
     </div>
   )
 }
