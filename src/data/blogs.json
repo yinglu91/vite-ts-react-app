@@ -1,7 +1,7 @@
 [
     {
      "id": 1,
-     "title": "Building a Todo App with Vue",
+     "title": "Building a Todo App with React",
      "cover": "https://nextjs.org/static/images/learn/foundations/next-app.png",
      "author":"John Doe"
     },
