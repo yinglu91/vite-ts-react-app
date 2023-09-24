@@ -26,11 +26,15 @@
  .container {
   width: 600px;
   margin: 0px auto;
- }
- .container .blog {
   display: flex;
   padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
  }
+ /* .container .blog {
+  display: flex;
+  padding: 10px;
+ } */
  .container .card {
   background-color: white;
   margin: 10px;

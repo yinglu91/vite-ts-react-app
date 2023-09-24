@@ -11,14 +11,14 @@ export type BlogData = {
 const Blogs = () => {
   return (
     <div className='container'>
-      <div className='blog'>
-        {blogsData.map((blog: BlogData) => (
-          <BlogItem
-            key={blog.id}
-            blog={blog}
-          />
-        ))}
-      </div>
+      {/* <div className='blog'> */}
+      {blogsData.map((blogData: BlogData) => (
+        <BlogItem
+          key={blogData.id}
+          blog={blogData}
+        />
+      ))}
+      {/* </div> */}
     </div>
   )
 }
