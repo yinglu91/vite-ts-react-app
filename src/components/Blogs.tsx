@@ -1,6 +1,7 @@
 import blogsData from '../data/blogs.json'
+import BlogItem from './BlogItem'
 
-type BlogData = {
+export type BlogData = {
   id: number
   title: string
   cover: string
@@ -8,28 +9,16 @@ type BlogData = {
 }
 
 const Blogs = () => {
-  const blogContent = (blog: BlogData) => {
-    const { id, title, cover, author } = blog
-
-    return (
-      <div
-        className='card'
-        key={id}
-      >
-        <img
-          src={cover}
-          alt=''
-        />
-        <div className='details'>
-          <h2>{title}</h2>
-          <h4>{author}</h4>
-        </div>
-      </div>
-    )
-  }
   return (
     <div className='container'>
-      <div className='blog'>{blogsData.map(blogContent)}</div>
+      <div className='blog'>
+        {blogsData.map((blog: BlogData) => (
+          <BlogItem
+            key={blog.id}
+            blog={blog}
+          />
+        ))}
+      </div>
     </div>
   )
 }
