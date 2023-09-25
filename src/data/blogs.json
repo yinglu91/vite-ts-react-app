@@ -3,12 +3,24 @@
      "id": 1,
      "title": "Building a Todo App with React",
      "cover": "https://nextjs.org/static/images/learn/foundations/next-app.png",
-     "author":"John Doe"
+     "author":"John Doe1"
     },
     {
      "id": 2,
      "title": "Getting started with TypeScript",
      "cover": "https://nextjs.org/static/images/learn/foundations/components.png",
-     "author":"Claman Joe"
-    } 
+     "author":"Claman Joe2"
+    },
+    {
+        "id": 3,
+        "title": "Building a Todo App with React",
+        "cover": "https://nextjs.org/static/images/learn/foundations/next-app.png",
+        "author":"John Doe3"
+       },
+       {
+        "id": 4,
+        "title": "Getting started with TypeScript",
+        "cover": "https://nextjs.org/static/images/learn/foundations/components.png",
+        "author":"Claman Joe4"
+       } 
 ]
